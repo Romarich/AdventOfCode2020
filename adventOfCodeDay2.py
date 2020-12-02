@@ -1,6 +1,6 @@
 #Part 1 AdventOfCode Day 2
 def day2AdventOfCodePart1():
-	f = open("input.txt","r")
+	f = open("input/inputDay2.txt","r")
 	compteurFinal = 0
 	for x in f:
 		element = x.split(" ");
@@ -17,7 +17,7 @@ def day2AdventOfCodePart1():
 
 #Part 2 AdventOfCode Day 2
 def day2AdventOfCodePart2():
-	f = open("input.txt","r")
+	f = open("input/inputDay2.txt","r")
 	compteurFinal = 0
 	for x in f:
 		element = x.split(" ");
